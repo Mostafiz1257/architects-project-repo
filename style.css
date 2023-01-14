@@ -1,4 +1,4 @@
-
+/* Google font link */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 *{
@@ -9,8 +9,12 @@ body{
 
 }
 
-
 /* Navbar-section-style */
+
+.gc-architrc{
+    margin-top: 10px;
+    font-weight:bold;
+}
 ul li{
     margin: 20px;
 }
@@ -18,6 +22,11 @@ ul li{
     display: flex;
 list-style: none;
 margin-left: 20px;
+}
+.banner-heading{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .banner-navbar-section{
@@ -31,7 +40,8 @@ margin-left: 20px;
     text-align: center;
 }
 .explore-btn{
-    margin: 35px;
+    border: 0px solid;
+    margin: 35px 0px;
     width: 180px;
     height: 65px;
     background: #FF900E;
@@ -45,6 +55,10 @@ height: 600px;
 
  /* Team section and Features */
 
+.features-list-heading{
+    font-size: 40px;
+    font-weight: 700;
+}
  .team-pic-fratures{
     display: flex;
     align-items: center;
@@ -66,6 +80,15 @@ color: #727272;
     color: #FF900E;
 }
 /* Lovely and enjoyable features */
+
+.feather-heading{
+ border-left-style: solid;
+  border-left-color: coral;
+  padding: 10px;
+    margin: 30px 0px;
+    font-size: 40px;
+    font-weight: 700;
+}
 .features-main-section{
     display: flex;
     align-items: center;
