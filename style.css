@@ -1,3 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
 /* Navbar-section-style */
 ul li{
     margin: 20px;
@@ -27,8 +39,8 @@ margin-left: 20px;
 border-radius: 8px;
 }
 .banner-pic{
-    width: 1040px;
-height: 500px;
+width: 1200px;
+height: 600px;
 }
 
  /* Team section and Features */
@@ -36,7 +48,7 @@ height: 500px;
  .team-pic-fratures{
     display: flex;
     align-items: center;
-     margin: 80px; 
+     margin: 120px; 
      gap: 50px;
  }
 .team-pic{
@@ -59,7 +71,7 @@ color: #727272;
     align-items: center;
     gap: 50px;
     
-    margin: 80px;
+    margin:120px;
 }
 .description-box{
     border: 0px solid;
@@ -75,9 +87,6 @@ color: #727272;
     padding-top: 80px;
   }
   .btn-exp{
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
     margin: auto;
    position: relative;
    top: -150px;
@@ -92,9 +101,16 @@ color: #727272;
   }
 
   /* Some Facts Section */
-  .facts-head-descrip{
-    margin: 80px;
+  .facts-heading{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 120px;
+
   }
+  .facts-descrip{
+    margin: 0px 120px;
+  }
+
 .main-facts-section{
 display: flex;
 justify-content: space-evenly;
@@ -110,6 +126,10 @@ border-radius: 5px;
   }
 
   /* My Own Section */
+  .Journalism-heading{
+    margin: 100px;
+    text-align: center;
+  }
 .total-visit-pacage{
     margin-top: 50px;
     display: flex;
@@ -126,6 +146,30 @@ border-radius: 5px;
   }
  
   
-
-
-
+/* Our Sponsor Section */
+.sponsor{
+    text-align: center;
+    margin: 100px;
+}
+.sponsor-heading{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.sponsor-company{
+    display: flex;
+    justify-content: space-evenly;
+}
+ /* footer */
+ .footer{
+    margin:  100px auto;
+    background-color: #FFF4E7;
+    border: 0px solid;
+    padding: 40px;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width: 800px;
+ }
+ 
