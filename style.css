@@ -1,0 +1,35 @@
+/* Navbar-section-style */
+ul li{
+    margin: 20px;
+}
+.menu{
+    display: flex;
+list-style: none;
+margin-left: 20px;
+}
+
+.banner-navbar-section{
+    background: rgba(255, 144, 14, 0.1);
+}
+.navbar-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.group-archite{
+    text-align: center;
+}
+.explore-btn{
+    margin: 35px;
+    width: 180px;
+    height: 65px;
+    background: #FF900E;
+    color: #FFFFFF;
+border-radius: 8px;
+}
+.banner-pic{
+    width: 1040px;
+height: 500px;
+}
+
+
+
