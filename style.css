@@ -31,5 +31,26 @@ border-radius: 8px;
 height: 500px;
 }
 
+ /* Team section and Features */
+ .team-pic-fratures{
+    display: flex;
+    align-items: center;
+     margin: 80px; 
+     gap: 50px;
+ }
+.team-pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.single-team-pic{
+    padding: 5px;
+    border-radius: 5px;
+}
+.quick-list-color{
+color: #727272;
+}
+.features-color{
+    color: #FF900E;
+}
 
 
