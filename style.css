@@ -21,14 +21,13 @@ ul li{
 .menu{
     display: flex;
 list-style: none;
-margin-left: 20px;
+/* margin-left: 20px; */
 }
 .banner-heading{
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
 }
-
 
 .banner-navbar-section{
     background: rgba(255, 144, 14, 0.1);
@@ -215,6 +214,12 @@ background-color: #FF900E;
     align-items: center;
     gap: 25px;
   }
+
+  .banar-decrip{
+align-items: center;
+/* border: 1px solid red; */
+padding: 0px 70px;
+  }
   /* .banner-navbar-section{
     width: 100%;
   } */
@@ -223,14 +228,13 @@ background-color: #FF900E;
 }
   
   .banner-pic{
-    width: 100%;
+    width: 90%;
     height: 100%;
   }
   .team-pic{
     grid-template-columns: repeat(1,1fr);
 
   }
-
 
 .architect-img{
   width: 100%;
