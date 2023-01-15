@@ -29,6 +29,7 @@ margin-left: 20px;
     margin-bottom: 20px;
 }
 
+
 .banner-navbar-section{
     background: rgba(255, 144, 14, 0.1);
 }
@@ -203,3 +204,40 @@ background-color: #FF900E;
     width: 800px;
  }
  
+ /*......................
+  Responsive Media Query 
+  ....................*/
+
+ @media screen and (max-width:576px){
+  
+  .navbar-main ,.menu , .banner-heading, .team-pic-fratures , .features-main-section , .main-facts-section , .total-visit-pacage , .sponsor-company {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+  /* .banner-navbar-section{
+    width: 100%;
+  } */
+.banner-heading {
+  padding: 0px 30px;
+}
+  
+  .banner-pic{
+    width: 100%;
+    height: 100%;
+  }
+  .team-pic{
+    grid-template-columns: repeat(1,1fr);
+
+  }
+
+
+.architect-img{
+  width: 100%;
+  height: 100%;
+}
+.footer{
+  width: 40%;
+}
+
+ }
