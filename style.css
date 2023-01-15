@@ -112,7 +112,7 @@ color: #727272;
   .btn-exp{
     margin: auto;
    position: relative;
-   top: -150px;
+   top: -190px;
     padding: 30px;
     text-align: center;
     border: 0px solid #FF900E;
@@ -234,6 +234,9 @@ padding: 0px 70px;
   .team-pic{
     grid-template-columns: repeat(1,1fr);
 
+  }
+  .btn-exp{
+    top: 0px;
   }
 
 .architect-img{
